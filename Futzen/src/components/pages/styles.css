@@ -1,0 +1,40 @@
+body{
+    background-color: #28ADCE;
+    margin:20
+}
+
+
+.button-container {
+    /*display: flex;
+    justify-content: flex-start;
+    max-width: 800px;
+    margin: 0 auto;*/
+    background: linear-gradient(90deg, #ffffff, #fefefe1b);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 100vh;
+    margin: 0 auto;
+    
+  }
+ /* .button-group-right {
+    justify-content: flex-end;
+  }*/
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-inline: 10px;
+  }
+  
+  .button {
+    border-radius:200px;
+    width: 220px;
+    height: 70px; 
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family:'Lucida Sans';
+  }
